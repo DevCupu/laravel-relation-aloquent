@@ -57,15 +57,6 @@ Jika tabel A memiliki relasi dengan tabel B, maka:
 
 ---
 
-### 📝 Contoh:
-
-**Relasi: One to One (User - Phone)**
-
-#### 🔸 Migrasi:
-```php
-// Tabel phones
-$table->foreignId('user_id')->constrained()->onDelete('cascade');
-
 ## 🛠️ Fitur Utama
 
 - Laravel 9+
@@ -81,7 +72,6 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini secara lokal:
 # Clone repository ini
 git clone https://github.com/username/nama-project.git
 cd nama-project
-
 # Install dependensi menggunakan Composer
 composer install
 
